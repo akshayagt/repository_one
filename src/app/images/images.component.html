@@ -1,0 +1,72 @@
+<!-- <p>
+  images works!
+</p>
+ -->
+
+ <!-- <br>
+<div class="container">
+  <br>
+  <table>
+       <tr>
+        <td>
+          <a href="./assets/d.png"  target="_blank"  >
+            <img  src="./assets/d.png" class="images" alt="Dog" >
+
+            <span class="image1"><p>Dog</p></span>
+        </a>
+      </td>
+       <td> 
+        <a href="./assets/im.png" target="_blank" >
+        <img src="./assets/im.png" class="images" alt="Easter" > 
+        <span class="image1"><p>Easter</p> </span>
+        </a>
+      </td>
+       <td> 
+        <a href="./assets/d.png" target="_blank" >
+          <img src="./assets/d.png" class="images" alt="Dog">
+           <span class="image1"> <p>Dog</p></span>
+        </a>
+
+      </td>
+       <td>
+          <a href="./assets/im.png"  target="_blank"  >
+            <img  src="./assets/im.png" class="images" alt="Easter" >
+            <span class="image1"><p>Easter</p></span>
+        </a>
+      </td>
+      
+      </tr> 
+         </table>
+</div> 
+<br>
+<br> -->
+
+<br>
+
+<div class="container">
+ <div class="row">
+  <div class="ff"> 
+    <div class="col-md-12  ff1"> 
+      <br>
+    <div *ngFor="let h of src1" >  
+      <div class="col-md-3"><a href="{{h.path}}" target="_blank">      
+      <div class="thumbnail th"> 
+        <img [src]="h.path" class="images"> <div class="pk">{{h.text}}</div></div> </a>   
+      </div>
+      </div>
+    </div> 
+  </div>
+</div>
+</div>
+  <!-- <div class="row">
+    <div class="akshaya">
+    <div *ngFor="let h of D">
+      <div class="col-md-3"><a href="{{h}}" target="_blank">
+      {{h}}</a>
+    </div>
+    </div>
+  </div>
+
+
+</div>   -->
+<br>
